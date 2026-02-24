@@ -1,0 +1,26 @@
+{
+  "name": "rolling-demo-customized-sign-in-page",
+  "private": true,
+  "version": "0.0.0",
+  "repository": "git@github.com:redhat-ai-dev/rolling-demo-customized-sign-in-page.git",
+  "engines": {
+    "node": "22"
+  },
+  "scripts": {
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "type": "module",
+  "packageManager": "yarn@3.8.7",
+  "devDependencies": {
+    "@backstage/cli": "^0.27.0",
+    "@spotify/eslint-plugin": "^15.0.0",
+    "@spotify/prettier-config": "^15.0.0",
+    "eslint": "^8.6.0",
+    "eslint-plugin-notice": "^0.9.10",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-testing-library": "^6.0.0",
+    "prettier": "^3.4.2"
+  },
+  "prettier": "@spotify/prettier-config"
+}

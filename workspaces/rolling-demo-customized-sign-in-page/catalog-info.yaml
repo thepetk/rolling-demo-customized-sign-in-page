@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rolling-demo-customized-sign-in-page
+  title: Rolling Demo Customized Sign-In Page
+  description: |
+    Customized sign in page for rolling demo
+spec:
+  type: backstage-plugin
+  owner: tpetkos@redhat.com
+  lifecycle: active
